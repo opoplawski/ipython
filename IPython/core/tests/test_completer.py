@@ -15,7 +15,7 @@ import nose.tools as nt
 # our own packages
 from IPython.config.loader import Config
 from IPython.core import completer
-from IPython.external.decorators import knownfailureif
+from IPython.lib.decorators import knownfailureif
 from IPython.utils.tempdir import TemporaryDirectory
 from IPython.utils.generics import complete_object
 from IPython.utils import py3compat

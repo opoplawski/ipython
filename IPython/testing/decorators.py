@@ -60,7 +60,7 @@ from .ipunittest import ipdoctest, ipdocstring
 # Grab the numpy-specific decorators which we keep in a file that we
 # occasionally update from upstream: decorators.py is a copy of
 # numpy.testing.decorators, we expose all of it here.
-from IPython.external.decorators import *
+from IPython.lib.decorators import *
 
 # For onlyif_cmd_exists decorator
 from IPython.utils.process import is_cmd_found

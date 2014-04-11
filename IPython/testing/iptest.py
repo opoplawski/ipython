@@ -47,7 +47,7 @@ from nose.util import safe_str
 from IPython.utils.process import is_cmd_found
 from IPython.utils.importstring import import_item
 from IPython.testing.plugin.ipdoctest import IPythonDoctest
-from IPython.external.decorators import KnownFailure, knownfailureif
+from IPython.lib.decorators import KnownFailure, knownfailureif
 
 pjoin = path.join
 
